@@ -22,8 +22,8 @@ header > h1{
 
 .score-board {
     width: 200px;
-    border: 3px solid white;
-    border-radius: 4px;
+    border: 4px solid white;
+    border-radius: 5px;
     margin: 20px auto;
     color: white;
     font-size: 40px;
@@ -47,7 +47,7 @@ header > h1{
     left: -25px;
 }
 
-#comp-label{
+#cpu-label{
     position: absolute;
     top: 30px;
     right: -25px;
@@ -106,4 +106,52 @@ img{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 20px;
+}
+
+.green-glow{
+    border: 4px solid #51cf66;
+    box-shadow: 0 0 10px #37b24d;
+    transition: all 0.3s ease;
+}
+
+.green-glow-score{
+    color: #51cf66;
+    transition: all 0.3s ease;
+}
+
+.red-glow{
+    border: 4px solid #fa5252;
+    box-shadow: 0 0 10px #e03131;
+    transition: all 0.3s ease;
+}
+
+.red-glow-score{
+    color: #fa5252;
+    transition: all 0.3s ease;
+}
+
+.yellow-glow{
+    border: 4px solid #ffe066;
+    box-shadow: 0 0 10px #fab005;
+    transition: all 0.3s ease;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px 10px 0px 10px;
+    height: 40px;
+    background-color: white;
+}
+
+footer > h3 {
+    margin-left: 10px;
+    color: #202124;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+footer >a:link, a:visited{
+    color:#202124;
 }
